@@ -12,6 +12,10 @@ import { Ex19 } from './ex19_update_state_functional';
 import { HelloWorld } from './ex1_hello_world';
 import { Ex20 } from './ex20_events';
 import { Ex21 } from './ex21_events_class';
+import { Ex22 } from './ex22_props_children';
+import { Ex23 } from './ex23_composition';
+import { Ex24 } from './ex24_child_parent_communication';
+import { Ex25 } from './ex25_child_parent_communication_2';
 import { Foo } from './ex2_expressions';
 import { Ex3 } from './ex3_attributes';
 import { Ex4 } from './ex4_nesting_fragment';
@@ -25,6 +29,10 @@ import { Zad2 } from './zad2';
 import { Zad3 } from './zad3';
 import { Card } from './zad67';
 import { Zad89 } from './zad89';
+import { Zad21 } from './zad_2_1';
+import { Zad22 } from './zad_2_2';
+import { Zad23 } from './zad_2_3';
+import { Zad24 } from './zad_2_4';
 
 const App = () => {
   // return <HelloWorld />
@@ -57,7 +65,15 @@ const App = () => {
   // return <Ex18 />
   // return <Ex19 />
   // return <Ex20 />
-  return <Ex21 />
+  // return <Ex21 />
+  // return <Zad21 defaultFirstName="Marcin" defaultLastName="Grygirek" />
+  // return <Zad22 />
+  // return <Zad23 initialCounter={100} />
+  // return <Zad24 initialCounter={100} />
+  // return <Ex22 />
+  // return <Ex23 />
+  // return <Ex24 />
+  return <Ex25 />
 }
 
 export default App;
