@@ -14,6 +14,7 @@ import { Zad1 } from './zad1';
 import { Zad2 } from './zad2';
 import { Zad3 } from './zad3';
 import { Card } from './zad67';
+import { Zad89 } from './zad89';
 
 const App = () => {
   // return <HelloWorld />
@@ -30,7 +31,13 @@ const App = () => {
   // return <Ex8 name='Lorem ipsum' />
   // return <Ex9If />
   // return <Ex10Or />
-  return <Ex11Ternary isOn={true} />
+  // return <Ex11Ternary isOn={true} />
+  // return <Zad89 item={{
+  //   firstName: 'Marcin',
+  //   lastName: 'Grygierek',
+  //   experience: ['lorem', 'ipsum','dolor']
+  // }}/>
+  return <Zad89 firstName='' lastName='Grygierek' experience={['Lorem', 'ipsum', 'dolor']} />
 }
 
 export default App;
