@@ -1,7 +1,17 @@
 import React from 'react';
 import { Ex10Or } from './ex10_conditional_rendering_or';
 import { Ex11Ternary } from './ex11_conditional_rendering_ternary';
+import { Ex12 } from './ex12_state_class';
+import { Ex13 } from './ex13_state_functional';
+import { Ex14 } from './ex14_init_state_class';
+import { Ex15 } from './ex15_init_state_functional';
+import { Ex16 } from './ex16_lifecycle_class';
+import { Ex17 } from './ex17_lifecycle_functional';
+import { Ex18 } from './ex18_update_state_class';
+import { Ex19 } from './ex19_update_state_functional';
 import { HelloWorld } from './ex1_hello_world';
+import { Ex20 } from './ex20_events';
+import { Ex21 } from './ex21_events_class';
 import { Foo } from './ex2_expressions';
 import { Ex3 } from './ex3_attributes';
 import { Ex4 } from './ex4_nesting_fragment';
@@ -37,7 +47,17 @@ const App = () => {
   //   lastName: 'Grygierek',
   //   experience: ['lorem', 'ipsum','dolor']
   // }}/>
-  return <Zad89 firstName='' lastName='Grygierek' experience={['Lorem', 'ipsum', 'dolor']} />
+  // return <Zad89 firstName='' lastName='Grygierek' experience={['Lorem', 'ipsum', 'dolor']} />
+  // return <Ex12 />
+  // return <Ex13 />
+  // return <Ex14 defaultName='Marian' />
+  // return <Ex15 defaultName='Marcin' />
+  // return <Ex16 name='Marcin' />
+  // return <Ex17 name='Marcin' />
+  // return <Ex18 />
+  // return <Ex19 />
+  // return <Ex20 />
+  return <Ex21 />
 }
 
 export default App;
