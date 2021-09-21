@@ -16,6 +16,9 @@ import { Ex22 } from './ex22_props_children';
 import { Ex23 } from './ex23_composition';
 import { Ex24 } from './ex24_child_parent_communication';
 import { Ex25 } from './ex25_child_parent_communication_2';
+import { Ex26 } from './ex26_uncontrolled_component';
+import { Ex27 } from './ex27_controlled_component';
+import { Ex28 } from './ex28_multi_input';
 import { Foo } from './ex2_expressions';
 import { Ex3 } from './ex3_attributes';
 import { Ex4 } from './ex4_nesting_fragment';
@@ -33,6 +36,9 @@ import { Zad21 } from './zad_2_1';
 import { Zad22 } from './zad_2_2';
 import { Zad23 } from './zad_2_3';
 import { Zad24 } from './zad_2_4';
+import { Zad31 } from './zad_3_1';
+import { Zad32 } from './zad_3_2';
+import { Zad33 } from './zad_3_3';
 
 const App = () => {
   // return <HelloWorld />
@@ -73,7 +79,13 @@ const App = () => {
   // return <Ex22 />
   // return <Ex23 />
   // return <Ex24 />
-  return <Ex25 />
+  // return <Ex25 />
+  // return <Zad31 />
+  // return <Zad32 />
+  // return <Zad33 />
+  // return <Ex26 />
+  // return <Ex27 />
+  return <Ex28 />
 }
 
 export default App;
