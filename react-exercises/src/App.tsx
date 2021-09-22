@@ -26,6 +26,7 @@ import { Ex31 } from './ex31_redux_example_local_state';
 import { Ex32 } from './ex32_redux_simple';
 import { Ex33 } from './ex33_redux_toolkit';
 import { Ex34 } from './ex34_react_router';
+import { Alert } from './ex35_snapshot';
 import { Ex3 } from './ex3_attributes';
 import { Ex4 } from './ex4_nesting_fragment';
 import { Ex5 } from './ex5_lists_and_keys';
@@ -113,7 +114,8 @@ const App = () => {
   // return <Zad62 />
   // return <Zad63 />
   // return <Ex34 />
-  return <Zad71 />
+  // return <Zad71 />/
+  return <Alert type='error' text='Lorem ipsum' />
 }
 
 export default App;

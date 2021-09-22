@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert error renders correctly 1`] = `
+<div
+  className="alert alert-error"
+  style={
+    Object {
+      "backgroundColor": "red",
+      "padding": 20,
+    }
+  }
+>
+  Lorem ipsum
+</div>
+`;
+
+exports[`Alert success renders correctly 1`] = `
+<div
+  className="alert alert-success"
+  style={
+    Object {
+      "backgroundColor": "green",
+      "padding": 20,
+    }
+  }
+>
+  Lorem ipsum
+</div>
+`;
