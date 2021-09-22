@@ -52,6 +52,7 @@ import { Zad52 } from './zad_5_2';
 import { Zad61 } from './zad_6_1';
 import { Zad62 } from './zad_6_2';
 import { Zad63 } from './zad_6_3';
+import { Zad71 } from './zad_7_1';
 
 const App = () => {
   // return <HelloWorld />
@@ -111,7 +112,8 @@ const App = () => {
   // return <Zad61 />
   // return <Zad62 />
   // return <Zad63 />
-  return <Ex34 />
+  // return <Ex34 />
+  return <Zad71 />
 }
 
 export default App;
