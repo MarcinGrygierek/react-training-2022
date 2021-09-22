@@ -19,7 +19,12 @@ import { Ex25 } from './ex25_child_parent_communication_2';
 import { Ex26 } from './ex26_uncontrolled_component';
 import { Ex27 } from './ex27_controlled_component';
 import { Ex28 } from './ex28_multi_input';
+import { Ex29 } from './ex29_simple_fetch';
 import { Foo } from './ex2_expressions';
+import { Ex30 } from './ex30_simple_fetch_async_await';
+import { Ex31 } from './ex31_redux_example_local_state';
+import { Ex32 } from './ex32_redux_simple';
+import { Ex33 } from './ex33_redux_toolkit';
 import { Ex3 } from './ex3_attributes';
 import { Ex4 } from './ex4_nesting_fragment';
 import { Ex5 } from './ex5_lists_and_keys';
@@ -39,6 +44,10 @@ import { Zad24 } from './zad_2_4';
 import { Zad31 } from './zad_3_1';
 import { Zad32 } from './zad_3_2';
 import { Zad33 } from './zad_3_3';
+import { Zad41 } from './zad_4_1';
+import { Zad42 } from './zad_4_2';
+import { Zad51 } from './zad_5_1';
+import { Zad52 } from './zad_5_2';
 
 const App = () => {
   // return <HelloWorld />
@@ -85,7 +94,16 @@ const App = () => {
   // return <Zad33 />
   // return <Ex26 />
   // return <Ex27 />
-  return <Ex28 />
+  // return <Ex28 />
+  // return <Zad41 />
+  // return <Zad42 />
+  // return <Ex29 />
+  // return <Ex30 />
+  // return <Zad51 />
+  // return <Zad52 />
+  // return <Ex31 />
+  // return <Ex32 />
+  return <Ex33 />
 }
 
 export default App;
