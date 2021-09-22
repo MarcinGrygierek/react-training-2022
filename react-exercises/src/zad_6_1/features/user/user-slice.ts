@@ -2,29 +2,24 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export interface UserState {
     name: string;
-    age: number;
+}
+
+const initialState: UserState=  {
+    name: 'Marcin'
 }
 
 interface SetName {
     payload: string;
 }
 
-interface ClearName {}
-
 export const userSlice = createSlice({
     name: 'user',
-    initialState: {
-        name: 'Marcin',
-        age: 54
-    },
+    initialState,
     reducers: {
         setName: (state: UserState, action: SetName) => {
             state.name = action.payload;
         },
-        clearName: (state: UserState, action: ClearName) => {
-            state.name = '';
-        }
     }
 })
 
-export const {setName, clearName} = userSlice.actions;
+export const {setName} = userSlice.actions;
